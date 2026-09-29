@@ -1,0 +1,43 @@
+Interfaz genérica Contenedor<T>
+ Definir una interfaz con métodos agregar(T item) y obtener(int indice).
+ Implementarla con una clase ListaContenedor<T>.
+
+
+Método genérico intercambiar
+ Implementar un método que reciba dos elementos de tipo T e intercambie sus posiciones en un arreglo.
+
+
+Clase Par<T>
+ Implementar una clase que guarde dos valores de tipo T y un método para verificar si ambos son iguales.
+
+
+🔹 Nivel Intermedio (con restricciones T extends Clase)
+Clase CajaNumerica<T extends Number>
+ Crear una clase genérica que almacene un número y tenga un método doble() que devuelva el doble de su valor.
+
+
+Método genérico sumar<T extends Number>
+ Implementar un método que reciba dos parámetros de tipo T y devuelva la suma como double.
+
+
+Clase Comparador<T extends Comparable<T>>
+ Crear una clase genérica con un método mayor(T a, T b) que devuelva el mayor entre dos elementos comparables.
+
+
+Interfaz genérica Almacenable<T extends Comparable<T>>
+ Definir una interfaz con métodos guardar(T item) y maximo(). Implementar en una clase que calcule el mayor elemento almacenado.
+
+
+Método imprimirMayor<T extends Number & Comparable<T>>
+ Implementar un método que reciba dos números comparables y devuelva el mayor.
+
+
+🔹 Nivel Avanzado (con múltiples restricciones)
+Clase EntidadPersistente<T extends Number & Comparable<T>>
+ Crear una clase que almacene un valor T y permita compararlo con otros objetos del mismo tipo.
+
+
+Método genérico procesar<T extends Runnable & Comparable<T>>
+ Crear un método que reciba un objeto que sea ejecutable (Runnable) y comparable, y ejecute su run() antes de
+ compararlo con otro.
+

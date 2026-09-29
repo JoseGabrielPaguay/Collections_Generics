@@ -1,0 +1,42 @@
+1. Crear una lista de productos de tipo HashMap, otra lista de tipo LinkedHashMap y otra de tipo
+    TreeMap y explicar las diferencias de cada una.
+
+2. En una tienda se necesita una aplicación para gestionar el inventario de
+    productos(codigo, nombre, precio), permitiendo agregar nuevos artículos, eliminar los que
+    están agotados, buscar productos específicos y listar todo el inventario en orden alfabético
+    y por orden de precio. Para ello, se utilizará una ArrayList, que ofrece acceso rápido a los
+    elementos y permite su manipulación de manera eficiente.
+
+3. En un banco, el sistema de atención al cliente debe manejar los turnos de manera ordenada.
+    Para lograrlo, se empleará una LinkedList (String), la cual permitirá agregar clientes en
+    la cola de espera, atender al primero en la lista y ofrecer una funcionalidad especial para
+    insertar clientes con urgencia al inicio de la cola sin afectar el rendimiento.
+
+4. Un editor de texto necesita registrar los cambios recientes para que el usuario pueda deshacerlos
+    cuando sea necesario. Para este caso, se utilizará un Vector, ya que permite almacenar los cambios
+    de forma segura en entornos concurrentes. Se deberá implementar una función de "deshacer" que elimine
+    el último cambio realizado, asegurando que se mantenga un historial de modificaciones.
+
+5. En la navegación web, los usuarios necesitan poder retroceder a páginas anteriores.
+    Para este propósito, se usará un Stack, que funciona como una pila LIFO (Last In, First Out).
+    Cada vez que el usuario visite una nueva página, esta se añadirá a la pila, y cuando decida
+    volver atrás, se eliminará la última página visitada para regresar a la anterior.
+
+6. En un edificio con control de acceso, los empleados deben identificarse mediante un código único
+    para poder ingresar. Para gestionar estos accesos sin permitir duplicados, se utilizará un HashSet,
+    donde cada ID de empleado será almacenado y verificado antes de permitir la entrada.
+
+7. En una aplicación de música, los usuarios pueden marcar canciones como favoritas. Para garantizar
+    que las canciones favoritas se mantengan en el orden en que fueron añadidas sin permitir duplicados,
+    se empleará un LinkedHashSet, el cual conservará la secuencia de inserción y asegurará que no haya
+    repeticiones.
+
+8. En una universidad, los nombres de los estudiantes deben mantenerse ordenados alfabéticamente para
+    facilitar su búsqueda. Para ello, se utilizará un TreeSet, que automáticamente organizará los
+    nombres de los estudiantes a medida que se agregan y permitirá obtener fácilmente el primer y
+    el último nombre de la lista.
+
+9. En un hospital, los pacientes deben ser atendidos según la gravedad de su condición, con los más
+    urgentes siendo tratados primero. Para manejar esto, se implementará una PriorityQueue, donde cada
+    paciente será ingresado con un nivel de prioridad y el sistema garantizará que aquellos con mayor
+    urgencia sean atendidos antes que los demás.
